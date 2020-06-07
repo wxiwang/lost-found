@@ -1,0 +1,92 @@
+body {
+    width: 100vw;
+
+    font-family: Montserrat, serif;
+    font-weight: bold;
+    color: #365c85;
+}
+
+#welcome-img {
+    position: absolute;
+    left: -28vw;
+    height: 100vh;
+    width: 110vw;
+}
+
+.welcome-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-page {
+    position: absolute;
+    left: 50vw;
+    width: 50vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: #365c85;
+}
+
+#logo-img {
+    width: 30vw;
+    height: auto;
+    margin-bottom: 10vh;
+}
+
+#login-img svg {
+    width:1.5em;
+    height: 1.5em;
+}
+
+#login-btn {
+    display: flex;
+    align-items: center;
+}
+
+.ant-btn-round {
+    color: #365c85;
+    font-weight: bold;
+    border-radius: 10px;
+
+    font-size: large;
+    height: 7vh;
+}
+
+.ant-btn:hover {
+    color: #365c85;
+}
+
+.ant-btn:active {
+    color: #365c85;
+}
+
+@media (max-width: 600px)  {
+    #welcome-img {
+        position: static;
+        height: 50vh;
+        width: 100vw;
+    }
+
+    .login-page {
+        position: static;
+        height: 50vh;
+        width: 100vw;
+    }
+
+    #logo-img {
+        width: 65vw;
+        height: auto;
+        margin-bottom: 5vh;
+        margin-top: -5vh;
+    }
+
+    .ant-btn-round {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

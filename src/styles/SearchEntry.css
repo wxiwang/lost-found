@@ -1,0 +1,28 @@
+h2 {
+    margin-top: 10px;
+}
+
+.search-block {
+    background: white;
+    height: 5vh;
+    width: 80vw;
+    padding: 5px;
+
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search-block:hover {
+    cursor: pointer;
+}
+
+.search-block img {
+    margin-left: auto;
+    max-width: 4vw;
+    max-height:100%;
+    width: auto;
+    height: auto;
+    transform: scaleX(-1)
+}
